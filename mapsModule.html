@@ -59,7 +59,7 @@
 </body>
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3&libraries=geometry&key=AIzaSyBOXcWLRK8GkkwACLhIJmJziWJ_oMdNYcM"></script>
-<!-- <script src="locationsFull.js"></script> -->
+<script src="fetch.js"></script>
 <script src="locationsList.js"></script>
 <script>
 
@@ -79,6 +79,8 @@ var main = function(){
 			getClosestPlaces();
 		}	
 	}
+
+
 
 	var getClosestPlaces = function(){
 		let freeTextAdress = document.getElementById("input").value;
