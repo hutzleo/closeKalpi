@@ -99,11 +99,24 @@ var main = function(){
 		})
 	}
 
+	var createSpan = function(className,value){
+		let spanEl = document.createElement("span");
+		spanEl.className = className;
+		spanEl.innerText = value;
+		return spanEl;
+	}
 
-	var createLi = function (value) {
+
+	var createLi = function (adress,hours) {
 		let el = document.createElement("li");
-		el.innerText = value;
+		el.appendChild(createSpan("adress", adress));
+		el.appendChild(createSpan("hours", " שעות פתיחה: "+hours));
 		return el;
+	}
+
+	var createErr = function(err){
+		let el = document.createElement("li");
+		return el.appendChild(createSpan("err", err));
 	}
 
 	var showList = function(sortedAddress){
@@ -114,7 +127,8 @@ var main = function(){
     		list.removeChild(list.lastChild);
 		}
 		for (let i=0; i<numberOfPlaces; i++){
-			list.appendChild(createLi(sortedAddress[i]["adress"]));
+			let obj = sortedAddress[i];
+			list.appendChild(createLi(obj["adress"], obj["hours"]));
 		}
 	}
 
@@ -122,7 +136,7 @@ var main = function(){
 		while (list.hasChildNodes()) { // clrear the list
     		list.removeChild(list.lastChild);
 		}
-		let li = createLi(errorMessage);
+		let li = createErr(errorMessage);
 		li.className = 'errorMessage';
 		list.appendChild(li);
 	}
@@ -146,7 +160,8 @@ var main = function(){
 					let pointLatLng = new google.maps.LatLng(point.lat, point.lng);
 					let obj = {
 						distance: google.maps.geometry.spherical.computeDistanceBetween(currentLatLng, pointLatLng),
-						adress: locationsList[i].adress
+						adress: locationsList[i].adress,
+						hours: locationsList[i].hours
 					}
 					insertionSort.insert(obj,distancesMatrix,'distance');
 				}
