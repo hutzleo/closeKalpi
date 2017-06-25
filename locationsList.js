@@ -1,23 +1,25 @@
 var locations = [  
    {  
-      "city":"קרייתשמונה",
+      "city":"קריית שמונה",
       "adress":"כיכר ההסתדרות 1 קריית שמונה - מועדון הגימלאים",
       "hours":"11: 00-21: 00",
       "location":{  
          "lat":33.2052604,
          "lng":35.5685358
       },
-      "data":"Kikar Hahistadrut 1, Kiryat Shmona, Israel"
+      "data":"Kikar Hahistadrut 1, Kiryat Shmona, Israel",
+      "updated": true
    },
    {  
       "city":"טבריה",
-      "adress":"אורחיים 1 טבריה - מתנ\"ס פירסט",
+      "adress":"אור חיים 1 טבריה - מתנ\"ס פירסט",
       "hours":"11:00-21:00",
       "location":{  
          "lat":32.778846,
          "lng":35.5189105
       },
-      "data":"Or Haim St 1, Tiberias, Israel"
+      "data":"Or Haim St 1, Tiberias, Israel",
+       "updated": true
    },
    {  
       "city":"יקנעם עילית",
@@ -27,7 +29,8 @@ var locations = [
          "lat":32.6472064,
          "lng":35.09380549999999
       },
-      "data":"Ha-Alonim St 35, Yokne'am Illit, Israel"
+      "data":"Ha-Alonim St 35, Yokne'am Illit, Israel",
+       "updated": true
    },
    {  
       "city":"מגדל העמק",
@@ -37,7 +40,8 @@ var locations = [
          "lat":32.6779055,
          "lng":35.2388673
       },
-      "data":"Kadesh St 34, Migdal HaEmek, Israel"
+      "data":"Kadesh St 34, Migdal HaEmek, Israel",
+       "updated": true
    },
    {  
       "city":"משמר העמק",
@@ -47,7 +51,8 @@ var locations = [
          "lat":32.6117295,
          "lng":35.1412005
       },
-      "data":"Mishmar HaEmek, Israel"
+      "data":"Mishmar HaEmek, Israel",
+       "updated": true
    },
    {  
       "city":"נצרת עילית",
@@ -57,7 +62,8 @@ var locations = [
          "lat":32.6967278,
          "lng":35.31101150000001
       },
-      "data":"Tsiv'oni St 14, Nazareth Iliit, Israel"
+      "data":"Tsiv'oni St 14, Nazareth Iliit, Israel",
+       "updated": true
    },
    {  
       "city":"עין חרוד",
@@ -67,27 +73,30 @@ var locations = [
          "lat":32.556806,
          "lng":35.392995
       },
-      "data":"Ein Harod, Israel"
+      "data":"Ein Harod, Israel",
+       "updated": true
    },
    {  
       "city":"עפולה",
       "adress":"עומר 5 עפולה ",
-      "hours":"11:00-15:00",
+      "hours":"11:00-21:00",
       "location":{  
          "lat":32.6124426,
          "lng":35.2971198
       },
-      "data":"Omer St 5, Afula, Israel"
+      "data":"Omer St 5, Afula, Israel",
+       "updated": true
    },
    {  
       "city":"קריית טבעון",
-      "adress":"אלונים 85 קריית טבעון - עמותת שלהבת",
+      "adress":"האורנים 27 קריית טבעון - מועדון שלהבת",
       "hours":"11:00-21:00",
       "location":{  
-         "lat":32.7217724,
-         "lng":35.1298275
+        "lat": 32.717972,
+        "lng": 35.1259374
       },
-      "data":"Alonim St 85, Kiryat Tiv'on, Israel"
+      "data":"Ha-Oranim St 27, Kiryat Tiv'on, Israel",
+       "updated": true 
    },
    {  
       "city":"בית שאן",
@@ -97,7 +106,8 @@ var locations = [
          "lat":32.4963251,
          "lng":35.5052162
       },
-      "data":"Menachem Begin Blvd 129, Beit She'an, Israel"
+      "data":"Menachem Begin Blvd 129, Beit She'an, Israel",
+       "updated": true
    },
    {  
       "city":"כרמיאל",
@@ -107,7 +117,8 @@ var locations = [
          "lat":32.9189514,
          "lng":35.2959878
       },
-      "data":"Misgav St 17, Karmiel, Israel"
+      "data":"Misgav St 17, Karmiel, Israel",
+       "updated": true
    },
    {  
       "city":"מעלות-תרשיחא",
@@ -117,7 +128,8 @@ var locations = [
          "lat":33.0147666,
          "lng":35.28111
       },
-      "data":"HaRav Kuk St 87, Ma'alot-Tarshiha, Israel"
+      "data":"HaRav Kuk St 87, Ma'alot-Tarshiha, Israel",
+       "updated": true
    },
    {  
       "city":"נהריה",
@@ -127,7 +139,8 @@ var locations = [
          "lat":33.0065148,
          "lng":35.0936822
       },
-      "data":"Sderot HaGa'aton 31, Nahariya, 22440, Israel"
+      "data":"Sderot HaGa'aton 31, Nahariya, 22440, Israel",
+       "updated": true
    },
    {  
       "city":"עכו",
@@ -137,7 +150,8 @@ var locations = [
          "lat":32.9327067,
          "lng":35.0756021
       },
-      "data":"Ha-Rav Herzog St 16, Acre, Israel"
+      "data":"Ha-Rav Herzog St 16, Acre, Israel",
+       "updated": true
    },
    {  
       "city":"קריית מוצקין",
@@ -147,7 +161,8 @@ var locations = [
          "lat":32.8397211,
          "lng":35.0808015
       },
-      "data":"Sderot Ben Gurion 82, Kiryat Motskin, Israel"
+      "data":"Sderot Ben Gurion 82, Kiryat Motskin, Israel",
+       "updated": true
    },
    {  
       "city":"חיפה",
@@ -157,7 +172,8 @@ var locations = [
          "lat":32.7878124,
          "lng":34.9970818
       },
-      "data":"היכל הספורט רוממה, דרך פיק\"א 69, חיפה, Israel"
+      "data":"היכל הספורט רוממה, דרך פיק\"א 69, חיפה, Israel",
+       "updated": true
    },
    {  
       "city":"יגור",
@@ -167,7 +183,8 @@ var locations = [
          "lat":32.7403455,
          "lng":35.0783116
       },
-      "data":"Yagur, Israel"
+      "data":"Yagur, Israel",
+       "updated": true
    },
    {  
       "city":"רמת יוחנן",
@@ -177,7 +194,8 @@ var locations = [
          "lat":32.793457,
          "lng":35.122208
       },
-      "data":"Ramat Yohanan, Israel"
+      "data":"Ramat Yohanan, Israel",
+       "updated": true
    },
    {  
       "city":"זכרון יעקב",
@@ -187,7 +205,8 @@ var locations = [
          "lat":32.5620193,
          "lng":34.9635988
       },
-      "data":"Marvad ha-Ksamim St 16, Zikhron Ya'akov, Israel"
+      "data":"Marvad ha-Ksamim St 16, Zikhron Ya'akov, Israel",
+       "updated": true
    },
    {  
       "city":"פרדס חנה-כרכור",
@@ -197,7 +216,8 @@ var locations = [
          "lat":32.4761203,
          "lng":34.9845645
       },
-      "data":"Derech HaBanim, Pardes Hana-Karkur, Israel"
+      "data":"Derech HaBanim, Pardes Hana-Karkur, Israel",
+       "updated": true
    },
    {  
       "city":"חדרה",
@@ -207,7 +227,8 @@ var locations = [
          "lat":32.4390938,
          "lng":34.9130977
       },
-      "data":"HaRav Herzog St 8, Hadera, Israel"
+      "data":"HaRav Herzog St 8, Hadera, Israel",
+       "updated": true
    },
    {  
       "city":"שדות ים",
@@ -217,7 +238,8 @@ var locations = [
          "lat":32.492613,
          "lng":34.89315
       },
-      "data":"Sdot Yam, Israel"
+      "data":"Sdot Yam, Israel",
+       "updated": true
    },
    {  
       "city":"מעגן מיכאל",
@@ -227,7 +249,8 @@ var locations = [
          "lat":32.5563622,
          "lng":34.9174571
       },
-      "data":"Ma'agan Michael, Israel"
+      "data":"Ma'agan Michael, Israel",
+       "updated": true
    },
    {  
       "city":"נתניה",
@@ -237,17 +260,19 @@ var locations = [
          "lat":32.3343103,
          "lng":34.8534662
       },
-      "data":"MacDonald St 24, Netanya, Israel"
+      "data":"MacDonald St 24, Netanya, Israel",
+       "updated": true
    },
    {  
       "city":"אבן יהודה",
-      "adress":"המייסדים 53 אבן יהודה - בית וולדמן",
+      "adress":"ההדרים פינת הלוחמים, אבן יהודה - בית וולדמן",
       "hours":"11:00-21:00",
       "location":{  
-         "lat":32.2696179,
-         "lng":34.8881597
+        "lat": 32.261489,
+        "lng": 34.889507
       },
-      "data":"Ha-Meyasdim St 53, Even Yehuda, Israel"
+      "data":"Ha-Hadarim St פינת HaLohamim St, Even Yehuda, Israel",
+       "updated": true
    },
    {  
       "city":"הוד השרון",
@@ -257,7 +282,8 @@ var locations = [
          "lat":32.1602771,
          "lng":34.9023055
       },
-      "data":"Derech Magdiel 67, Hod HaSharon, Israel"
+      "data":"Derech Magdiel 67, Hod HaSharon, Israel",
+       "updated": true
    },
    {  
       "city":"כפר סבא",
@@ -267,7 +293,8 @@ var locations = [
          "lat":32.1743746,
          "lng":34.9271584
       },
-      "data":"HaTa'as St 14, Kefar Sava, Israel"
+      "data":"HaTa'as St 14, Kefar Sava, Israel",
+       "updated": true
    },
    {  
       "city":"רעננה",
@@ -277,7 +304,8 @@ var locations = [
          "lat":32.1798509,
          "lng":34.8756891
       },
-      "data":"Klausner St 3, Ra'anana, Israel"
+      "data":"Klausner St 3, Ra'anana, Israel",
+       "updated": true
    },
    {  
       "city":"הרצליה",
@@ -287,7 +315,8 @@ var locations = [
          "lat":32.162796,
          "lng":34.8439786
       },
-      "data":"HaBanim St 11, Herzliya, Israel"
+      "data":"HaBanim St 11, Herzliya, Israel",
+       "updated": true
    },
    {  
       "city":"רמת השרון",
@@ -297,7 +326,8 @@ var locations = [
          "lat":32.1374822,
          "lng":34.8439004
       },
-      "data":"HaMasger St 3, Ramat Hasharon, Israel"
+      "data":"HaMasger St 3, Ramat Hasharon, Israel",
+       "updated": true
    },
    {  
       "city":"ירושלים",
@@ -307,7 +337,8 @@ var locations = [
          "lat":31.7731898,
          "lng":35.2223687
       },
-      "data":"Avraham Mapu St 1, Jerusalem, Israel"
+      "data":"Avraham Mapu St 1, Jerusalem, Israel",
+       "updated": true
    },
    {  
       "city":"מבשרת ציון",
@@ -317,7 +348,8 @@ var locations = [
          "lat":31.8014614,
          "lng":35.1582195
       },
-      "data":"Rakefet St 1, Mevaseret Zion, Israel"
+      "data":"Rakefet St 1, Mevaseret Zion, Israel",
+       "updated": true
    },
    {  
       "city":"בית שמש",
@@ -327,7 +359,8 @@ var locations = [
          "lat":31.7481806,
          "lng":34.9799664
       },
-      "data":"HaNasi St 40, Bet Shemesh, Israel"
+      "data":"HaNasi St 40, Bet Shemesh, Israel",
+       "updated": true
    },
    {  
       "city":"תל אביב",
@@ -337,7 +370,8 @@ var locations = [
          "lat":32.1053445,
          "lng":34.8110548
       },
-      "data":"Rokach Blvd 101, Tel Aviv-Yafo, Israel"
+      "data":"Rokach Blvd 101, Tel Aviv-Yafo, Israel",
+       "updated": true
    },
    {  
       "city":"תל אביב",
@@ -347,7 +381,8 @@ var locations = [
          "lat":32.0382251,
          "lng":34.7550369
       },
-      "data":"Sderot HaBesht 35, Tel Aviv-Yafo, Israel"
+      "data":"Sderot HaBesht 35, Tel Aviv-Yafo, Israel",
+       "updated": true
    },
    {  
       "city":"מודיעין-מכבים- רעות",
@@ -357,7 +392,8 @@ var locations = [
          "lat":31.9107727,
          "lng":35.0136194
       },
-      "data":"Adar St 1, Modi'in-Maccabim-Re'ut, Israel"
+      "data":"Adar St 1, Modi'in-Maccabim-Re'ut, Israel",
+       "updated": true
    },
    {  
       "city":"רמלה",
@@ -367,7 +403,8 @@ var locations = [
          "lat":31.9300849,
          "lng":34.8663688
       },
-      "data":"Sderot Hayim Weizman 9, Ramla, Israel"
+      "data":"Sderot Hayim Weizman 9, Ramla, Israel",
+       "updated": true
    },
    {  
       "city":"ראש העין",
@@ -377,7 +414,8 @@ var locations = [
          "lat":32.0967863,
          "lng":34.9452167
       },
-      "data":"Marvad HaKsamim St 10, Rosh Haayin, Israel"
+      "data":"Marvad HaKsamim St 10, Rosh Haayin, Israel",
+       "updated": true
    },
    {  
       "city":"פתח תקווה",
@@ -387,7 +425,8 @@ var locations = [
          "lat":32.0917504,
          "lng":34.8847627
       },
-      "data":"Akiva Librecht St 10, Petah Tikva, Israel"
+      "data":"Akiva Librecht St 10, Petah Tikva, Israel",
+       "updated": true
    },
    {  
       "city":"קריית אונו",
@@ -397,7 +436,8 @@ var locations = [
          "lat":32.0635107,
          "lng":34.8574914
       },
-      "data":"Los Angeles St 2, Kiryat Ono, Israel"
+      "data":"Los Angeles St 2, Kiryat Ono, Israel",
+       "updated": true
    },
    {  
       "city":"גבעתיים",
@@ -407,7 +447,8 @@ var locations = [
          "lat":32.061689,
          "lng":34.814515
       },
-      "data":"Mishmar HaYarden St 18, Giv'atayim, Israel"
+      "data":"Mishmar HaYarden St 18, Giv'atayim, Israel",
+       "updated": true
    },
    {  
       "city":"רמת גן",
@@ -417,7 +458,8 @@ var locations = [
          "lat":32.0832581,
          "lng":34.8146179
       },
-      "data":"Bialik St 42, Ramat Gan, Israel"
+      "data":"Bialik St 42, Ramat Gan, Israel",
+       "updated": true
    },
    {  
       "city":"בת ים",
@@ -427,7 +469,8 @@ var locations = [
          "lat":32.021992,
          "lng":34.7580198
       },
-      "data":"Rahav St 7, Bat Yam, Israel"
+      "data":"Rahav St 7, Bat Yam, Israel",
+       "updated": true
    },
    {  
       "city":"חולון",
@@ -437,7 +480,8 @@ var locations = [
          "lat":32.0177188,
          "lng":34.7721153
       },
-      "data":"Arlozorov St 84, Holon, Israel"
+      "data":"Arlozorov St 84, Holon, Israel",
+       "updated": true
    },
    {  
       "city":"ראשון לציון",
@@ -447,17 +491,19 @@ var locations = [
          "lat":31.96417069999999,
          "lng":34.7988526
       },
-      "data":"Rothschild St 62, Rishon LeTsiyon, Israel"
+      "data":"Rothschild St 62, Rishon LeTsiyon, Israel",
+       "updated": true
    },
    {  
       "city":"יבנה",
       "adress":"המיסב 1 יבנה - מתחם תחנת דלק אלון ",
-      "hours":"17:00-21:00",
+      "hours":"11:00-21:00",
       "location":{  
          "lat":31.8641877,
          "lng":34.7420431
       },
-      "data":"Ha-Meisav St 1, Yavne, Israel"
+      "data":"Ha-Meisav St 1, Yavne, Israel",
+       "updated":true
    },
    {  
       "city":"רחובות",
@@ -467,7 +513,8 @@ var locations = [
          "lat":31.8972612,
          "lng":34.808766
       },
-      "data":"Levin Epstein St 22, Rehovot, Israel"
+      "data":"Levin Epstein St 22, Rehovot, Israel",
+       "updated": true
    },
    {  
       "city":"נס ציונה",
@@ -477,7 +524,8 @@ var locations = [
          "lat":31.9291924,
          "lng":34.8115087
       },
-      "data":"David Elazar St 22, Ness Ziona, Israel"
+      "data":"David Elazar St 22, Ness Ziona, Israel",
+       "updated": true
    },
    {  
       "city":"נצר סרני",
@@ -487,7 +535,8 @@ var locations = [
          "lat":31.922789,
          "lng":34.821191
       },
-      "data":"Netzer Sereni, Israel"
+      "data":"Netzer Sereni, Israel",
+       "updated": true
    },
    {  
       "city":"נען",
@@ -497,7 +546,8 @@ var locations = [
          "lat":31.883208,
          "lng":34.859237
       },
-      "data":"Na'an, Israel"
+      "data":"Na'an, Israel",
+       "updated":true
    },
    {  
       "city":"אשקלון",
@@ -507,7 +557,8 @@ var locations = [
          "lat":31.6634889,
          "lng":34.5859913
       },
-      "data":"Ha-Palmakh St 3, Ashkelon, Israel"
+      "data":"Ha-Palmakh St 3, Ashkelon, Israel",
+       "updated": true
    },
    {  
       "city":"אשדוד",
@@ -517,17 +568,19 @@ var locations = [
          "lat":31.8125716,
          "lng":34.6459206
       },
-      "data":"Yair St 4, Ashdod, Israel"
+      "data":"Yair St 4, Ashdod, Israel",
+       "updated": true
    },
    {  
       "city":"שדרות",
-      "adress":"ככר הנשיא 8 שדרות - מרכז צהלולים",
+      "adress":"הדגל 4 שדרות - משכן אלה",
       "hours":"11:00-21:00",
       "location":{  
-         "lat":31.5253641,
-         "lng":34.59315369999999
+         "lat": 31.5234883,
+         "lng": 34.59655010000001
       },
-      "data":"משעול הנשיא 8, שדרות, 8712808, Israel"
+      "data":"HaDegel St 4, Sderot, Israel",
+       "updated": true
    },
    {  
       "city":"בארי",
@@ -537,17 +590,19 @@ var locations = [
          "lat":31.424513,
          "lng":34.492567
       },
-      "data":"Be'eri, Israel"
+      "data":"Be'eri, Israel",
+       "updated": true
    },
    {  
       "city":"קריית מלאכי",
       "adress":"שדרות דוד בן גוריון 51 קריית מלאכי - בית החייל ",
-      "hours":"11:00-15:00",
+      "hours":"11:00-21:00",
       "location":{  
          "lat":31.7297931,
          "lng":34.7425676
       },
-      "data":"Sderot David Ben Gurion 51, Kiryat Malakhi, Israel"
+      "data":"Sderot David Ben Gurion 51, Kiryat Malakhi, Israel",
+       "updated":true
    },
    {  
       "city":"דימונה",
@@ -557,7 +612,8 @@ var locations = [
          "lat":31.0641574,
          "lng":35.0341799
       },
-      "data":"Memorial Dalet HaMa'apilim St 2, Dimona, Israel"
+      "data":"Memorial Dalet HaMa'apilim St 2, Dimona, Israel",
+       "updated":true
    },
    {  
       "city":"קריית גת",
@@ -567,7 +623,8 @@ var locations = [
          "lat":31.6071166,
          "lng":34.7721347
       },
-      "data":"Sderat Paz 92, Kiryat Gat, Israel"
+      "data":"Sderat Paz 92, Kiryat Gat, Israel",
+       "updated": true
    },
    {  
       "city":"באר שבע",
@@ -577,7 +634,8 @@ var locations = [
          "lat":31.2510234,
          "lng":34.795859
       },
-      "data":"Derech HaMeshahrerim 7, Beersheba, Israel"
+      "data":"Derech HaMeshahrerim 7, Beersheba, Israel",
+       "updated": true
    },
    {  
       "city":"ערד",
@@ -587,17 +645,19 @@ var locations = [
          "lat":31.2582979,
          "lng":35.2096304
       },
-      "data":"Elazar Ben Ya'ir St 28, Arad, Israel"
+      "data":"Elazar Ben Ya'ir St 28, Arad, Israel",
+       "updated": true
    },
    {  
       "city":"נתיבות",
-      "adress":"הגפן 6 , נתיבות ",
+      "adress":"שדרות ירושלים 6 ,נתיבות ",
       "hours":"17:00-21:00",
       "location":{  
-         "lat":31.415,
-         "lng":34.585626
+            "lat": 31.4245879,
+            "lng": 34.60016940000001
       },
-      "data":"HaGefen St 6, Netivot, Israel"
+      "data":"Sderot Yerushalayim 6, Netivot, Israel",
+       "updated":true
    },
    {  
       "city":"רביבים",
@@ -607,7 +667,8 @@ var locations = [
          "lat":31.045195,
          "lng":34.72108600000001
       },
-      "data":"Revivim, Israel"
+      "data":"Revivim, Israel",
+       "updated": true
    },
    {  
       "city":"אופקים",
@@ -617,7 +678,8 @@ var locations = [
          "lat":31.3082678,
          "lng":34.61868
       },
-      "data":"HaShaked St 6, Ofakim, Israel"
+      "data":"HaShaked St 6, Ofakim, Israel",
+       "updated": true
    },
    {  
       "city":"מצפה רמון",
@@ -627,7 +689,8 @@ var locations = [
          "lat":30.6093863,
          "lng":34.797118
       },
-      "data":"Ein Saharonim St 1, Mitzpe Ramon, Israel"
+      "data":"Ein Saharonim St 1, Mitzpe Ramon, Israel",
+       "updated": true
    },
    {  
       "city":"יטבתה",
@@ -637,7 +700,8 @@ var locations = [
          "lat":29.896322,
          "lng":35.059227
       },
-      "data":"Yotvata, Israel"
+      "data":"Yotvata, Israel",
+       "updated": true
    },
    {  
       "city":"אילת",
@@ -647,7 +711,8 @@ var locations = [
          "lat":29.5552591,
          "lng":34.9543661
       },
-      "data":"Sderot HaTmarim 3, Eilat, Israel"
+      "data":"Sderot HaTmarim 3, Eilat, Israel",
+       "updated": true
    },
    {  
       "city":"באקה אל-גרביה",
@@ -657,7 +722,8 @@ var locations = [
          "lat":32.422891,
          "lng":35.035764
       },
-      "data":"Baqa al-Gharbiyye, Israel"
+      "data":"Baqa al-Gharbiyye, Israel",
+       "updated": true
    },
    {  
       "city":"יפיע",
@@ -667,7 +733,8 @@ var locations = [
          "lat":32.695002,
          "lng":35.28201
       },
-      "data":"Yafa an-Naseriyye, Israel"
+      "data":"Yafa an-Naseriyye, Israel",
+       "updated": true
    },
    {  
       "city":"שפרעם",
@@ -677,7 +744,8 @@ var locations = [
          "lat":32.80576500000001,
          "lng":35.169971
       },
-      "data":"Shefa-'Amr, Israel"
+      "data":"Shefa-'Amr, Israel",
+       "updated": true
    },
    {  
       "city":"קלנסווה",
@@ -687,7 +755,8 @@ var locations = [
          "lat":32.285791,
          "lng":34.981487
       },
-      "data":"Qalansawe, Israel"
+      "data":"Qalansawe, Israel",
+       "updated": true
    },
    {  
       "city":"טירה",
@@ -697,7 +766,8 @@ var locations = [
          "lat":32.235466,
          "lng":34.950506
       },
-      "data":"Tira, Israel"
+      "data":"Tira, Israel",
+       "updated": true
    },
    {  
       "city":"רהט",
@@ -707,27 +777,30 @@ var locations = [
          "lat":31.401704,
          "lng":34.753386
       },
-      "data":"Rahat, Israel"
+      "data":"Rahat, Israel",
+       "updated": true
    },
    {  
       "city":"בית ג`ן",
-      "adress":"בניין דלתא לשעבר ליד בית העם בית ג`ן",
+      "adress":"רחוב ראשי בית ג'ן - בניין רפיק חמזה קומה ב'",
       "hours":"11:00-21:00",
       "location":{  
          "lat":32.965655,
          "lng":35.381268
       },
-      "data":"Beit Jann, Israel"
+      "data":"Beit Jann, Israel",
+       "updated":true
    },
    {  
       "city":"ג`וליס",
       "adress":"ג`וליס - בית העם ",
-      "hours":"11:00-15:00",
+      "hours":"11:00-21:00",
       "location":{  
          "lat":32.9443425,
          "lng":35.1857616
       },
-      "data":"Julis, Israel"
+      "data":"Julis, Israel",
+       "updated":true
    },
    {  
       "city":"מגאר",
@@ -737,7 +810,8 @@ var locations = [
          "lat":32.890704,
          "lng":35.40461
       },
-      "data":"Maghar, Israel"
+      "data":"Maghar, Israel",
+       "updated": true
    },
    {  
       "city":"דאלית אל-כרמל",
@@ -747,7 +821,8 @@ var locations = [
          "lat":32.693796,
          "lng":35.055447
       },
-      "data":"Daliyat al-Karmel, Israel"
+      "data":"Daliyat al-Karmel, Israel",
+       "updated": true
    },
    {  
       "city":"חורה",
@@ -757,6 +832,47 @@ var locations = [
          "lat":31.2988257,
          "lng":34.9399148
       },
-      "data":"Hura, Israel"
-   }
+      "data":"Hura, Israel",
+       "updated": true
+   },{
+        "city": "כפר קאסם",
+        "adress": "עומר בן אל ח'טאב, כפר קאסם, ליד קופח לאומית",
+        "hours": "11:00-15:00",
+        "location":{
+            "lat": 32.11514,
+            "lng": 34.980428
+        },
+        "data":"Omar Ben el-Khatab St, Kafr Qasim, Israel",
+        "updated": true     
+    },{
+        "city": "כפר קרע",
+        "adress": "כפר קרע - בית הקשיש",
+        "hours": "17:00-21:00",
+        "location":{
+            "lat": 32.5090577,
+            "lng": 35.0561707
+        },
+        "data":"Kafr Qara, Israel",
+        "updated": true     
+    },{
+        "city": "תל אביב יפו",
+        "adress": "דיזינגוף 50 (דיזינגוף סנטר), ליד קופות קולנוע לב, תל אביב יפו",
+        "hours": "11:00-21:00",
+        "location":{
+            "lat": 32.075477,
+            "lng": 34.7757304
+        },
+        "data":"Dizengoff St 50, Tel Aviv-Yafo, 64332, Israel",
+        "updated": true     
+    },{
+        "city": "אפיקים",
+        "adress": "אפיקים מועדון עינב",
+        "hours": "11:00-15:00",
+        "location":{
+            "lat": 32.680564,
+            "lng": 35.57773
+        },
+        "data":"Afikim, Israel",
+        "updated": true     
+    }
 ]
